@@ -1,0 +1,76 @@
+body{
+    background: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+/* Style for the container */
+.container {
+    width: 350px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    background-color: white;
+    
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; /* Adjust to control space from the top */
+}
+.container .row{
+    height: 50px;
+    margin-top: 15px;
+    position: relative;
+} 
+/* Style for the title */
+.title {
+    
+    padding-top: 5%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e7c2f;
+    width: 350px;
+    height: 50px;
+    
+    border-radius: 5px;
+    text-align: center;
+
+}
+.space{
+    width: 200px;
+    height: 25px;
+}
+.rowbutton{
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+    
+}
+.pass{
+    color: #16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.subbtn{
+    background-color:#20dab4;
+    height: 35px;
+    width: 220px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+
+}
+.subbtn:hover{
+    background-color: #0e7c2f;
+}
+.signup-link{
+    font-size: larger;
+}
+.signup{
+    color: #16a085;
+}
